@@ -563,32 +563,32 @@ async def quote2(pesan: types.Message):
 @disp.message_handler(commands=['quote'])
 async def quote1(pesan: types.Message):
 	kata = pesan.text.replace('/quote','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('anjay kata², tpi bntr y')
 	await pesan.answer_photo(types.InputFile.from_url(f'https://rasenmedia.my.id/api/quotes5?apikey=baka&text={kata}'))
 
 @disp.message_handler(commands=['nulis'])
 async def nuliskanan(pesan : types.Message):
     tulisan = pesan.text.replace('/nulis','')
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('males amat nulis , bntr')
     await pesan.answer_photo(types.InputFile.from_url(f'https://rasenmedia.my.id/api/ngtdnulis?apikey=baka&text={tulisan}'))
 
 @disp.message_handler(commands=['menu'])
 async def nuliskanan(pesan : types.Message):
     await pesan.answer(menu_bot())
     
-button1 = KeyboardButton('𝗛𝗲𝗹𝗽 𝗕𝗼𝘁 🤖')
-button2 = KeyboardButton('𝗠𝗲𝗻𝘂 𝗕𝗼𝘁🤖')
+button1 = KeyboardButton('bantuan 🤖')
+button2 = KeyboardButton('menu bot 🤖')
 keyboard1 = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).add(button1).add(button2)
 
 @disp.message_handler(commands=['start', 'help'])
 async def start_bot(pesan: types.Message):
-	await pesan.reply('𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗠𝗮𝗹𝗮𝘀𝗕𝗼𝘁, 𝗦𝗲𝗹𝗲𝗰𝘁 𝗠𝗲𝗻𝘂 ❗',reply_markup=keyboard1)
+	await pesan.reply('welcome to random bot ❗',reply_markup=keyboard1)
 
 @disp.message_handler()
 async def keyboard_answer(pesan: types.Message):
     if pesan.text == '𝗛𝗲𝗹𝗽 𝗕𝗼𝘁 🤖':
     	await pesan.answer(about_bot())
-    elif pesan.text == '𝗠𝗲𝗻𝘂 𝗕𝗼𝘁🤖':
+    elif pesan.text == '𝗠𝗲𝗻𝘂 𝗕𝗼𝘁 🤖':
     	await pesan.answer(menu_bot())
     	
 if __name__ == '__main__':
