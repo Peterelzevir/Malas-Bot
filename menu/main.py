@@ -1,10 +1,10 @@
 def menu_bot():
     return '''
-       🗒️ 𝗙𝗶𝘁𝘂𝗿 𝗕𝗼𝘁 𝗗𝗮𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗕𝗼𝘁 :
+        Fitur nya di bawah kak:
     		
     	𝗜𝗺𝗮𝗴𝗲 🖼️
     	
-    	• Bot Nulis : /nulis (text)
+    	• Nulis nih : /nulis (text)
     	• Quotes Creator V1 : /quote (kata)
     	• Quotes Creator V2 : /quote2 kata|wm
     	• Quotes Creator V3 /quote3 kata|wm
@@ -24,8 +24,8 @@ def menu_bot():
     	• Flaming Text V4 : /flamingtext4 (text)
     	• Flaming Text V5 : /flamingtext5 (text)
     		
-    	𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 📁
     	
+   
     	• Tiktok Download No WM : /tt (link)
     	• TT Musik Download : /ttaudio (link)
     	• IG Download (photo/video) : /igdl (link)
@@ -43,21 +43,13 @@ def menu_bot():
     	• Random Quotes Anime : /animequotes
     	• Quotes Anime V2 : /animequote
     	
-    	𝗡𝗦𝗙𝗪 💋
-    	
-    	• Hentai : /hentai
-    	• Loli : /loli
-    	• Yuri : /yuri
-    	• BDSM : /bdsm
-    	• GangBang : /gangbang
-    	• Blowjob : /blowjob
-    	• Neko : /neko
-    	
-    	𝗩𝗶𝗱𝗲𝗼 𝗤𝘂𝗼𝘁𝗲𝘀🌚
+    	𝗡𝗦𝗙𝗪 TIDAK ADA!
+    	   
+    	𝗩𝗶𝗱𝗲𝗼 𝗤𝘂𝗼𝘁𝗲𝘀 🗿
     	
     	• Gema Membiru Video : /gemamembiru
     	
-    	𝗦𝗲𝗻𝗲𝗻𝗴-𝗦𝗲𝗻𝗲𝗻𝗴😹
+    	𝗦𝗲𝗻𝗲𝗻𝗴-𝗦𝗲𝗻𝗲𝗻𝗴 😆
     	
     	• Random Foto Kucing : /kucing
     	• Dark Jokes /darkjokes
@@ -68,18 +60,13 @@ def menu_bot():
     	• Random Foto Cosplay : /cosplay
     	• PP Couple Cowo-Cewe : /couple
     	
-    	𝗣𝗲𝗻𝗴𝗲𝘁𝗮𝗵𝘂𝗮𝗻🙋
+    	𝗣𝗲𝗻𝗴𝗲𝘁𝗮𝗵𝘂𝗮𝗻 🌍
     	
     	• Search Wikipedia : /wiki (text)
     	• Fakta Unik : /faktaunik
     	• Kata Bijak : /katabijak
     	
-    	𝗜𝘀𝗹𝗮𝗺𝗶🕌
-  
-       • Renungan Islam : /renungan
-       • Random Doa : /doa
-       • Asmaul Husna : /asmaulhusna
-  
+        
     	𝗠𝘂𝘀𝗶𝗸 🎵
     	
     	• Lirik Lagu : /lirik (judul lagu)
@@ -89,11 +76,11 @@ def menu_bot():
     	• Short URL : /short (link)
     	• QR Code : /qr (link/tujuan)
     	
-    	𝗛𝗮𝘀𝗵🔐
+    	𝗛𝗮𝘀𝗵 🔐
     	
     	• Base64 Encode : /b64encode (string)
     	• Base64 Decode : /b64decode (b64)
     	
-    	©2022 MalasBot - Telegram Bot.
+    	©2023 Randombot - Telegram Bot.
     	
     	'''
